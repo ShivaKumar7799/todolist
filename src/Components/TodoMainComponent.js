@@ -91,7 +91,7 @@ const markComplete = (arrItem, arrIndex) => {
          <div>
            <h1> Todo Tasks</h1>
           {todoArr.map((item,index) => {
-            return <TodoTasks checkeds = {checkeds} checking = {() =>checking(item, index)} key = {index} text={item} deletetodo = {() => deletetodo(index)} />
+            return <TodoTasks checking = {() =>checking(item, index)} key = {index} text={item} deletetodo = {() => deletetodo(index)} />
           })}
 
           {todoArr.length > 0 && <button onClick={() => {
