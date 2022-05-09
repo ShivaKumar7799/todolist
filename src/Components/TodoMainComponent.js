@@ -82,8 +82,6 @@ const markComplete = (arrItem, arrIndex) => {
  
   return (
     <>
-    {checkedItem}
-    {todoArr}
     <h1> Add a Todo Task </h1>
        {/* <input ref={inputRef} onChange={enterTodo} type = "text" />  */}
        <textarea ref={inputRef} style = {{height : "15px"}} onChange = {enterTodo} value = {todoText} > </textarea>
