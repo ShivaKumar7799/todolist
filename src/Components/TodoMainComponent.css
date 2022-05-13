@@ -47,7 +47,7 @@ textarea{
   padding: 1px;
   font-size: 20px;
   border-radius: 50px;
- 
+  cursor: pointer;
 }
 .addBtn:hover{
   background-color: green;
@@ -63,6 +63,7 @@ textarea{
   border: none;
   border: 2px solid green;
   color: green;
+  cursor: pointer;
 }
 .displayMarkItems:hover{
   background-color: green;

@@ -2,8 +2,10 @@
   padding: 1px;
 }
 .checkBox{
-  transform: scale(2.8);
-  color: green;
+  height: 33px;
+  width: 33px;
+  transform: translate(9px,10px);
+  cursor: pointer;
 }
 .pendingTodo{
   height: 32px;
@@ -21,5 +23,6 @@
   font-size: 20px;
   color: red;
   font-weight: 600;
-  transform: translateY(3px)
+  transform: translateY(3px);
+  cursor: pointer;
 }
