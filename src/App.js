@@ -2,12 +2,14 @@ import logo from './logo.svg';
 import './App.css';
 import TodoMainComponent from './Components/TodoMainComponent';
 
-function App() {
+
+function TodoApp() {
+ 
   return (
-   <>
-   <TodoMainComponent />
-   </>
+   <div className='todoComponent' >
+       <TodoMainComponent />
+   </div>
   );
 }
 
-export default App;
+export default TodoApp;

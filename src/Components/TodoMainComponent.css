@@ -1,0 +1,89 @@
+.todoContainer{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.todo__input{
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+}
+.todo__Tasks{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  width: 100%;
+  margin-top: 20px;
+}
+.todo__pending{
+  display: flex;
+  flex-direction: column;
+  padding: 10px 20px;
+}
+h1, h2{
+  text-align: center;
+}
+h1{
+  color: blue;
+  text-shadow: 4px 4px 5px red;
+}
+h2{
+  margin-bottom: 10px;
+}
+textarea{
+  display: flex;
+  width: 100%;
+  flex: 1;
+  padding: 5px;
+  font-size: 18px;
+  margin-left: 30px;
+  font-weight: 500;
+  padding-left: 10px;
+}
+.addBtn{
+  width: 40px;
+  margin: 0px 20px;
+  padding: 1px;
+  font-size: 20px;
+  border-radius: 50px;
+ 
+}
+.addBtn:hover{
+  background-color: green;
+  color: white;
+  border: none;
+  outline: none;
+}
+.displayMarkItems{
+  width: 130px;
+  margin: 0px auto;
+  padding: 6px;
+  margin-top: 4px;
+  border: none;
+  border: 2px solid green;
+  color: green;
+}
+.displayMarkItems:hover{
+  background-color: green;
+  color: white;
+}
+.todo__completed{
+  padding: 10px 20px;
+}
+.todo__header > h1 {
+  font-size: 40px;
+}
+@media screen and (max-width : 576px) {
+  .todo__Tasks{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+  }
+  .todo__header > h1 {
+    font-size: 35px;
+  }
+}

@@ -1,0 +1,25 @@
+.todoItemContainer{
+  padding: 1px;
+}
+.checkBox{
+  transform: scale(2.8);
+  color: green;
+}
+.pendingTodo{
+  height: 32px;
+  font-size: 16px;
+  padding-left: 10px;
+  letter-spacing: 1px;
+  margin-left: 10px;
+  background-color: red;
+  color: white;
+  transform: translateY(2px)
+}
+.delBtn{
+  height: 35px;
+  width: 35px;
+  font-size: 20px;
+  color: red;
+  font-weight: 600;
+  transform: translateY(3px)
+}
