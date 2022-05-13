@@ -2,8 +2,8 @@
   padding: 1px;
 }
 .checkBox{
-  height: 33px;
-  width: 33px;
+  height: 36px;
+  width: 35px;
   transform: translate(9px,10px);
   cursor: pointer;
 }
@@ -15,14 +15,12 @@
   margin-left: 10px;
   background-color: red;
   color: white;
-  transform: translateY(2px)
 }
 .delBtn{
-  height: 35px;
+  height: 36px;
   width: 35px;
   font-size: 20px;
   color: red;
   font-weight: 600;
-  transform: translateY(3px);
   cursor: pointer;
 }
