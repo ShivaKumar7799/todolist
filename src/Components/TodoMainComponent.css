@@ -75,7 +75,7 @@ textarea{
 .todo__header > h1 {
   font-size: 40px;
 }
-@media screen and (max-width : 576px) {
+@media screen and (max-width : 600px) {
   .todo__Tasks{
     display: flex;
     justify-content: space-around;
